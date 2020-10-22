@@ -40,7 +40,7 @@ public class ArrayStuff {
         // TODO: Print the first letter of the 7th planet from the sun
 
 
-        // TODO: Change the name of our planet to be a line of text that the user inputs
+        // TODO: Change the name of our planet to be a word that the user inputs
         System.err.println("What do you want to rename Earth to be?");
 
 
