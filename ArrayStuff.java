@@ -43,13 +43,10 @@ public class ArrayStuff {
        
 
        System.out.println("What do you want to rename earth?");
-       planets[2] = input.next();
-       
+       planets[2] = input.next();     
      
         planets[0] = planets[2].toUpperCase();
-
-
-        // TODO: Print all of the elements of "planets" in reverse order.
+        
         for( int count= planets.length -1; count>= 0; count--) {
         	System.out.println(planets[count]);
         }
