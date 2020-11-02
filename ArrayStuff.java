@@ -1,7 +1,7 @@
 /*
- * Programmer:
- * Date:
- * Purpose:
+ * Programmer:Tyler Canniff
+ * Date:November 2 2020
+ * Purpose:Practicing with arrays
  */
 
 import java.util.Scanner;
@@ -42,7 +42,7 @@ public class ArrayStuff {
         System.out.println(planets[6].charAt(0));
        
 
-       System.out.println("What do you want to rename earth?");
+       System.err.println("What do you want to rename earth?");
        planets[2] = input.next();     
      
         planets[0] = planets[2].toUpperCase();
